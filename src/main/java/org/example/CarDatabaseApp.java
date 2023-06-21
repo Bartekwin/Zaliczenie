@@ -41,8 +41,9 @@ class Car {
 
 // Klasa obsługująca bazę danych samochodów
 class CarDatabase {
-    private List<Car> cars; // tworzymy liste w ktorej bedziemy przechowywac samochody
     private String filename; // tworzymy zmienna filename
+    private List<Car> cars; // tworzymy liste w ktorej bedziemy przechowywac samochody
+
 
     public CarDatabase(String filename) {// konstruktor z dodawaniem samochodow do listy
         cars = new ArrayList<>();
